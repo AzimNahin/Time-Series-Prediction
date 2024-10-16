@@ -1,9 +1,9 @@
-Pre monsoon- March-May
-Monsoon- June-September
-Post Monsoon- Oct-November
-winter - Dec-February
-	"Reference
-Value"
+Pre monsoon - (March - May)
+Monsoon - (June - September)
+Post Monsoon - (October - November)
+winter - (December - February)
+
+"Threshold Values"
 pH	6.5-8.5
 EC	≤1200 
 TA	≤150
