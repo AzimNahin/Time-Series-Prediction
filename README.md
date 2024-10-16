@@ -1,6 +1,6 @@
 # Time Series Analysis
 
-This repository contains scripts and resources for analyzing time series data, including forecasting models such as Auto ARIMA, SARIMA, and VAR. The project utilizes a dataset to forecast various environmental parameters and compares them against defined thresholds.
+This repository contains scripts and resources for analyzing time series data, including forecasting models such as Auto ARIMA, SARIMA, and VAR. The project utilizes a dataset to forecast various environmental parameters and compares them against defined thresholds for seasonal evaluation.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -10,7 +10,7 @@ This repository contains scripts and resources for analyzing time series data, i
 - [Technologies](#technologies)
 
 ## Overview
-This project aims to forecast environmental parameters like pH, EC, TDS, etc., using time series models. Seasonal data comparisons are made against thresholds specified in `Threshold Values.txt`.
+This project aims to forecast environmental parameters such as pH, EC, TDS, etc., using time series models. Data is analyzed for seasonal variations (e.g., Pre-monsoon, Monsoon) and compared against specified thresholds found in `Threshold Values.txt`.
 
 ## Files
 - **autoArima.py**: Script for forecasting using the Auto ARIMA model.
@@ -24,7 +24,7 @@ This project aims to forecast environmental parameters like pH, EC, TDS, etc., u
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/Time-Series-Analysis.git
+   git clone https://github.com/AzimNahin/Time-Series-Analysis.git
 2. Navigate to the project directory:
    ```bash
    cd Time-Series-Analysis
