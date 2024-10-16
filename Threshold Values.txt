@@ -1,0 +1,17 @@
+Pre monsoon- March-May
+Monsoon- June-September
+Post Monsoon- Oct-November
+winter - Dec-February
+	"Reference
+Value"
+pH	6.5-8.5
+EC	≤1200 
+TA	≤150
+Cl	150-650
+TDS	≤2100
+TSS	≤150
+DO	≥5
+BOD	≤6
+COD	≤200
+Turb	≤10
+
