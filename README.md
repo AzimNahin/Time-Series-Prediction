@@ -8,8 +8,6 @@ This repository contains scripts and resources for analyzing time series data, i
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 This project aims to forecast environmental parameters like pH, EC, TDS, etc., using time series models. Seasonal data comparisons are made against thresholds specified in `Threshold Values.txt`.
@@ -20,6 +18,8 @@ This project aims to forecast environmental parameters like pH, EC, TDS, etc., u
 - **VAR.py**: Conducts multivariate analysis using the VAR model.
 - **Dataset.xlsx**: Contains the time series data with environmental parameters.
 - **Threshold Values.txt**: Lists thresholds for different parameters across various seasons.
+- **requirements.txt**: Lists all required Python libraries for the project.
+- **README.md**: Provides an overview and instructions for the project.
 
 ## Installation
 1. Clone the repository:
@@ -31,4 +31,19 @@ This project aims to forecast environmental parameters like pH, EC, TDS, etc., u
 3. Install the required Python packages:
    ```bash
    pip install -r requirements.txt
+
+## Usage
+1. Load the dataset using one of the provided scripts (e.g., `autoArima.py`, `Sarima.py`, or `VAR.py`).
+2. Run the selected script to perform time series forecasting.
+3. Evaluate the model results by comparing forecasts with seasonal threshold values found in `Threshold Values.txt`.
+
+## Technologies
+- **Python**: Core programming language for analysis and forecasting.
+- **Libraries**: 
+  - `pandas` for data manipulation and analysis.
+  - `numpy` for numerical operations.
+  - `matplotlib` and `seaborn` for data visualization.
+  - `statsmodels` for statistical modeling and forecasting.
+  - `pmdarima` for Auto ARIMA model.
+  - `openpyxl` for handling Excel files.
 
