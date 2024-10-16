@@ -25,3 +25,10 @@ This project aims to forecast environmental parameters like pH, EC, TDS, etc., u
 1. Clone the repository:
    ```bash
    git clone https://github.com/YourUsername/Time-Series-Analysis.git
+2. Navigate to the project directory:
+   ```bash
+   cd Time-Series-Analysis
+3. Install the required Python packages:
+   ```bash
+   pip install -r requirements.txt
+
