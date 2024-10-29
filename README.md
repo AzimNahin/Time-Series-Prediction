@@ -8,6 +8,7 @@ This repository contains scripts and resources for analyzing time series data, i
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
+- [Contributors](#contributors)
 
 ## Overview
 This project aims to forecast environmental parameters such as pH, EC, TDS, etc., using time series models. Data is analyzed for seasonal variations (e.g., Pre-monsoon, Monsoon) and compared against specified thresholds found in `Threshold Values.txt`.
@@ -48,3 +49,5 @@ This project aims to forecast environmental parameters such as pH, EC, TDS, etc.
   - `pmdarima` for Auto ARIMA model.
   - `openpyxl` for handling Excel files.
 
+## Contributors
+- [Azim Nahin](https://github.com/AzimNahin)
