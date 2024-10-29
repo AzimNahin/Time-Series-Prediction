@@ -13,6 +13,7 @@ This repository contains scripts and resources for analyzing time series data, i
 This project aims to forecast environmental parameters such as pH, EC, TDS, etc., using time series models. Data is analyzed for seasonal variations (e.g., Pre-monsoon, Monsoon) and compared against specified thresholds found in `Threshold Values.txt`.
 
 ## Files
+- **Main.ipynb**: Performs time-series analysis and forecasting using statistical models and machine learning. It includes data preparation, handling missing values, and applies models like Prophet, ARIMA, SARIMAX, and VAR to forecast trends. It also evaluates model performance using metrics like MAE, MSE, and RMSE, and visualizes the actual versus predicted values to assess accuracy.
 - **autoArima.py**: Script for forecasting using the Auto ARIMA model.
 - **Sarima.py**: Implements SARIMA for seasonal data forecasting.
 - **VAR.py**: Conducts multivariate analysis using the VAR model.
