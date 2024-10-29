@@ -1,6 +1,6 @@
-# Time Series Prediction
+# Time Series Prediction and Calculate CCME-WQI
 
-This repository contains scripts and resources for analyzing time series data, including forecasting models such as Auto ARIMA, SARIMA, and VAR. The project utilizes a dataset to forecast various environmental parameters and compares them against defined thresholds for seasonal evaluation.
+This repository contains scripts and resources for analyzing time series data, including forecasting models such as Auto ARIMA, SARIMA, and VAR. The project utilizes a dataset to forecast various environmental parameters and compares them against defined thresholds for seasonal evaluation. Seasonal CCME-WQI has also been calculated.
 
 ## Table of Contents
 - [Overview](#overview)
