@@ -51,3 +51,4 @@ This project aims to forecast environmental parameters such as pH, EC, TDS, etc.
 
 ## Contributors
 - [Azim Nahin](https://github.com/AzimNahin)
+- [Sadman1702042](https://github.com/Sadman1702042)
