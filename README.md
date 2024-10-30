@@ -11,7 +11,7 @@ This repository contains scripts and resources for analyzing time series data, i
 - [Contributors](#contributors)
 
 ## Overview
-This project aims to forecast environmental parameters such as pH, EC, TDS, etc., using time series models. Data is analyzed for seasonal variations (e.g., Pre-monsoon, Monsoon) and compared against specified thresholds found in `Threshold Values.txt`.
+This project aims to forecast environmental parameters such as pH, EC, TDS, etc., using time series models. Data is analyzed for seasonal variations (e.g., Pre-monsoon, Monsoon) and compared against specified thresholds found in `Threshold Values.txt`. Using these values of the parameters water quality index is also calculated.
 
 ## Files
 - **Main.ipynb**: Applies models like Prophet, ARIMA, SARIMAX, and VAR to forecast trends, evaluates model performance using metrics like MAE, MSE, and RMSE, and visualizes the actual versus predicted values.
