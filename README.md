@@ -10,7 +10,6 @@ This repository is dedicated to a time series analysis project that focuses on p
 - [Features](#features)
 - [Models](#models)
 - [Water Quality Index Calculation](#water-quality-index-calculation)
-- [Performance Metric](#performance-metric)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
@@ -114,13 +113,6 @@ The WQI is calculated by:
 | Turbidity         | ≤10 NTU              |
 
 The calculated WQI scores are used to monitor changes in water quality over different seasons, providing insights into the safety of water resources.
-
----
-
-## Performance Metric
-
-### Accuracy:
-The accuracy metric is used to assess how well each model predicts seasonal water quality values. Accuracy is computed based on the proportion of correct predictions, giving a straightforward indication of each model’s effectiveness in forecasting.
 
 ---
 
