@@ -1,6 +1,6 @@
 # Time Series Analysis and Prediction for Water Quality Index
 
-This repository is dedicated to a time series analysis project that focuses on predicting and assessing water quality over time using various environmental parameters. The project implements advanced time series forecasting models such as VAR, Auto ARIMA, and SARIMA, aiming to predict the **Canadian Council of Ministers of the Environment (CCME) Water Quality Index (WQI)** across different seasons. This project not only evaluates seasonal trends in water quality but also provides a clear and actionable metric for understanding environmental health.
+This repository is dedicated to a time series analysis project that focuses on predicting and assessing water quality over time using various environmental parameters (pH, electrical conductivity, total alkalinity, BOD, COD, DO, TDS, TSS, chloride, turbidity). The project implements advanced time series forecasting models such as VAR, Auto ARIMA, and SARIMA, aiming to predict the **Canadian Council of Ministers of the Environment (CCME) Water Quality Index (WQI)** across different seasons. This project not only evaluates seasonal trends in water quality but also provides a clear and actionable metric for understanding environmental health.
 
 ---
 
